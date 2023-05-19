@@ -1,4 +1,4 @@
-#PALINDROMOS
+#PALINDROMOS PRUEBA
 
 def palindromo(cadena):
     original = []
@@ -21,3 +21,17 @@ def palindromo(cadena):
 
 a = palindromo("blacky")
 print(a)
+
+
+#EJERCICIO 2 SIN 2 FORs
+import numpy as np
+pali = np.array(['larutanosaportootropasonatural'])
+pali[0]
+'larutanosaportootropasonatural'
+def palindromo():
+    if (pali[0]) == (pali[0])[::-1]:
+        print("palindromo")
+    else:
+        print("no es palindromo")
+return
+palindromo()
