@@ -1,0 +1,23 @@
+#PALINDROMOS
+
+def palindromo(cadena):
+    original = []
+    inversa = []
+    for i in cadena:
+        original.append(i)
+        #cadena invertida
+    print(original)
+    for e in cadena[::-1]:
+            inversa.append(e)
+    print(inversa)
+    j = 0
+    for j in original:
+        for j in inversa:
+            if original[j] == inversa[j]:
+                print(j)
+                print("Palindromo")
+            else:
+                print("No es palindromo")
+
+a = palindromo("blacky")
+print(a)
